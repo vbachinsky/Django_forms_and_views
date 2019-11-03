@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Пиццерия 'У Ашота'!</title>
+	</head>
+		
+	<body>
+		
+		<h1> Welcome to pizza 'У Ашота'!</h1>
+			<p> <a href="{% url 'home' %}"> Example TemplateView </a></p>
+			<p> <a href="{% url 'list' %}"> Example ListView </a></p>
+			<p> <a href="{% url 'view' %}"> Example View </a></p>
+			<p> <a href="{% url 'post' %}"> Example ModelForm </a></p>
+
+		{% block content %}{% endblock content %}
+
+	</body>
+
+
+</html>
