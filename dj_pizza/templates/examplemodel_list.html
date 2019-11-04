@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h2> Example Model - TemplateView </h2>
+	<ul>
+		{% for examplemodel in examplemodel_list %}
+			<li> {{ examplemodel.textfield }} </li>
+		{% endfor %}
+	</ul>
+{% endblock %}
